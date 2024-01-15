@@ -4,16 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VentureVibes.com</title>
+
+    <!-- font link starts here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font link ends here -->
+
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/banner.css" />
+
+    <script
+      src="https://kit.fontawesome.com/db9e661b57.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <nav>
-        <div>
-          <img src="./Images/Group 40071 (2).png" alt="">
-          <h3>Venture <span>Vibes</span></h3>
+      <nav class="nav-container">
+        <div class="nav-title-container">
+          <img src="./Images/Group 40071 (2).png" alt="" />
+          <h3>Venture <span class="color">Vibes</span></h3>
         </div>
-        <div></div>
+        <div class="nav-options">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="">Testimonial</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </nav>
     </header>
+
+    <main>
+      <section class="banner-section">
+        <div class="banner-container">
+          <h3 class="banner-title">Explore Your Travel</h3>
+          <p class="banner-description">
+            "Embark on endless adventures with Explore Your Travel, where every
+            destination is a new chapter in your personal story of exploration."
+          </p>
+          <div class="banner-input-section">
+            <div>
+              <select name="" id="">
+                <option value="">Where Go</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Bangladesh">Maldives</option>
+                <option value="Bangladesh">Nepal</option>
+              </select>
+            </div>
+            <div>
+              <input type="time" name="" id="" />
+            </div>
+            <div>
+              <select name="" id="">
+                <option value="">Select Type</option>
+                <option value="Economy">Economy</option>
+                <option value="Buisness Class">Buisness Class</option>
+              </select>
+            </div>
+            <div>
+              <button>
+                <i class="fa-solid fa-magnifying-glass"></i> Find Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

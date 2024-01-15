@@ -38,19 +38,45 @@ input[type='email']::placeholder {
   color: rgba(19, 19, 24, 0.3);
   cursor: pointer;
 }
-hr{
-  border: 1px solid rgba(19, 19, 24, 0.10);
+hr {
+  border: 1px solid rgba(19, 19, 24, 0.1);
   margin-top: 10px;
 }
+.offer-container {
+  position: relative;
+}
+.offer {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 51px;
+  right: 7px;
+}
+.offer h5 {
+  color: #fff;
+  font-size: 24px;
+}
+.offer h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+}
 
-@media screen  and (max-width: 600px) {
-  .newsletter-container{
+@media screen and (max-width: 600px) {
+  .newsletter-container {
     flex-direction: column;
   }
-  .newsletter-container img{
+  .newsletter-container img {
     width: 100%;
   }
-  .newsletter-content{
+  .newsletter-content {
     text-align: center;
   }
 }

@@ -1,0 +1,36 @@
+.popular-tours-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 53px;
+}
+.popular-tours-container ul {
+  margin: 24px 0 24px 30px;
+}
+.popular-tours-container li {
+  margin: 16px 0;
+}
+.popular-tour-btn {
+  margin-top: 30px;
+}
+.popular-tour-btn > button {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 15px 35px;
+  border: 0;
+  outline: 0;
+}
+
+@media screen  and (max-width: 600px) {
+    .popular-tours-container{
+      flex-direction: column;
+    }
+    .popular-tours-container img{
+      width: 100%;
+    }
+  .popular-tour-title{
+    font-size: 20px;
+  }
+}

@@ -37,7 +37,7 @@
 }
 .banner-input-section select,
 input[type='time'],
-button {
+.banner-button {
   width: 174px;
   height: 52px;
   border-radius: 8px;
@@ -76,7 +76,7 @@ button {
   }
   .banner-input-section select,
   input[type='time'],
-  button {
+  .banner-button {
     width: 255px;
     height: 52px;
   }

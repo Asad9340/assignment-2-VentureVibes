@@ -40,10 +40,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  header, section{
-    max-width: 560px;
-    margin: 0 auto;
-  }
   .nav-options {
     display: none;
   }

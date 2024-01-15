@@ -1,0 +1,14 @@
+.destination-content{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.destination-paragraph{
+  max-width: 643px;
+}
+.grid-container{
+  display: grid;
+  gap: 24px;
+}

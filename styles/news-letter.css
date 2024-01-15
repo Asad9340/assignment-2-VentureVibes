@@ -38,7 +38,10 @@ input[type='email']::placeholder {
   color: rgba(19, 19, 24, 0.3);
   cursor: pointer;
 }
-
+hr{
+  border: 1px solid rgba(19, 19, 24, 0.10);
+  margin-top: 10px;
+}
 
 @media screen  and (max-width: 600px) {
   .newsletter-container{

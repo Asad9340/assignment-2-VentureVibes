@@ -1,0 +1,14 @@
+.perfect-place-img {
+  position: relative;
+}
+.perfect-place-img-title h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}

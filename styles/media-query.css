@@ -151,7 +151,7 @@
   .newsletter-input input[type='text'],
   input[type='email'],
   input[type='button'] {
-    width: 300px;
+    width: 400px;
     padding-left: 20px;
     height: 52px;
   }
@@ -179,14 +179,6 @@
   .offer-container img {
     width: 100%;
   }
-  /* .discount-card-1,
-  .discount-card-2,
-  .discount-card-3 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } */
   .discount-card-1,
   .discount-card-2,
   .discount-card-3 {
@@ -202,5 +194,12 @@
 
   .celebraty-img img {
     height: 500px;
+  }
+    .newsletter-input input[type='text'],
+  input[type='email'],
+  input[type='button'] {
+    width: 400px;
+    padding-left: 20px;
+    height: 52px;
   }
 }

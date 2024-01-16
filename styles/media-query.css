@@ -88,6 +88,11 @@
     flex-direction: column;
     gap: 16px;
   }
+  .item {
+    max-width: 560px;
+    max-height: 300px;
+    padding: 32px;
+  }
   .item h4 {
     font-size: 20px;
     font-weight: 800;
@@ -190,6 +195,8 @@
   .discount-card-3 {
     right: 40px;
     top: 20px;
+    text-align: left;
+    padding-left: 30px;
   }
   .celebraty-section {
     display: flex;

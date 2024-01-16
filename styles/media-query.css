@@ -7,12 +7,18 @@
   section {
     margin-bottom: 24px;
   }
+  .title{
+    font-size: 30px;
+  }
   .paragraph {
     font-size: 14px;
     line-height: 24px;
   }
 
   /* Header section responsive  starts here */
+  .nav-container{
+    margin: 20px;
+  }
   .nav-options {
     display: none;
   }
@@ -30,61 +36,80 @@
     font-size: 21px;
   }
   .nav-title-container > img {
-    width: 28.724px;
-    height: 33.516px;
+    width: 30px;
+    height: 30px;
   }
   /* Header section responsive  ends here */
 
   /* Banner section responsive  starts here */
   .banner-container {
-    height: 483px;
+    max-height: 483px;
+    margin: 20px;
   }
   .banner-title {
     font-size: 22px;
     font-weight: 800;
+    margin: 10px 0;
   }
   .banner-description {
     max-width: 384px;
     font-size: 14px;
     line-height: 21px;
-    margin-bottom: 32px;
+    margin-bottom: 30px;
   }
   .banner-input-section {
     flex-direction: column;
+    gap: 16px;
   }
   .banner-input-section select,
-  input[type='time'],
+  input[type='datetime-local'],
   .banner-button {
-    width: 255px;
-    height: 52px;
+    width: 250px;
+    height: 50px;
+  }
+  .fa-solid {
+    font-size: 15px;
   }
   /* Banner section responsive  ends here */
 
   /* Popular tours section responsive starts hree */
   .popular-tours-container {
     flex-direction: column;
+    margin: 20px;
   }
   .popular-tours-container img {
     width: 100%;
   }
-  .popular-tour-title {
-    font-size: 20px;
-  }
   /* Popular tours section responsive ends hree */
 
   /* Destination section responsive ends hree */
+  .destination-container{
+    margin: 20px;
+  }
+  .destination-content{
+    margin-bottom: 16px;
+  }
   .grid-container {
     display: flex;
     flex-direction: column;
+    gap: 16px;
   }
   .grid-container img {
     width: 100%;
     height: 300px;
   }
+  .grid-container h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
   /* Destination section responsive ends hree */
 
   /* why choose us section responsive starts hree */
+  .choose-us-section{
+    margin: 20px;
+  }
   .choose-us-container {
+    display: flex;
     flex-direction: column;
     gap: 16px;
   }
@@ -103,8 +128,13 @@
 
   /* Celebrity section responsive starts here */
   .celebraty-section {
+    margin: 20px;
     display: flex;
     flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .celebraty-img{
+    gap: 16px;
   }
 
   /* Celebrity section responsive ends here */
@@ -195,7 +225,7 @@
   .celebraty-img img {
     height: 500px;
   }
-    .newsletter-input input[type='text'],
+  .newsletter-input input[type='text'],
   input[type='email'],
   input[type='button'] {
     width: 400px;

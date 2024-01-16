@@ -110,6 +110,14 @@
     width: 450px;
     height: 365px;
   }
+  .discount-card-1,
+  .discount-card-2,
+  .discount-card-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   /* Deals and discounts section responsive  ends here */
 
   /* NewsLetter section responsive  starts here */
@@ -137,13 +145,21 @@
   .popular-tours-container {
     flex-direction: column;
   }
-  .popular-tours-container img{
+  .popular-tours-container img {
     width: 100%;
   }
-  .newsletter-container{
+  .newsletter-container {
     flex-direction: column;
   }
-  .offer-container img{
+  .offer-container img {
     width: 100%;
+  }
+  .discount-card-1,
+  .discount-card-2,
+  .discount-card-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }

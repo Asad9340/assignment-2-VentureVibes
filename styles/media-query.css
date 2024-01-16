@@ -130,6 +130,13 @@
   .newsletter-content {
     text-align: center;
   }
+  .newsletter-input input[type='text'],
+  input[type='email'],
+  input[type='button'] {
+    width: 300px;
+    padding-left: 20px;
+    height: 52px;
+  }
   /* NewsLetter section responsive  ends here */
 }
 

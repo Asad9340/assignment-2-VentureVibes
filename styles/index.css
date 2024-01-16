@@ -417,8 +417,8 @@ input[type='time'],
 .newsletter-input input[type='text'],
 input[type='email'],
 input[type='button'] {
-  max-width: 393px;
-  max-height: 52px;
+  width: 393px;
+  height: 52px;
   border: 0;
   outline: 0;
   border-radius: 8px;

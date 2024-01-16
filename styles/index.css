@@ -362,7 +362,7 @@ input[type='time'],
 .card-icon {
   font-size: 16px;
   display: flex;
-  justify-content: center;
+  justify-content:start;
   gap: 10px;
   margin-bottom: 26px;
 }
@@ -392,7 +392,7 @@ input[type='time'],
   color: #fff;
   font-size: 20px;
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 /* Deals and Discounts Section ends here */
 

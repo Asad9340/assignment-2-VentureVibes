@@ -118,22 +118,19 @@
 
   */
   .discount-card-1,
-  .discount-card-2,
   .discount-card-3 {
-    left: 40px;
+    left: 20px;
     top: 150px;
   }
-  /* .discount-card-1 button,
+  .discount-card-2 {
+    right: 20px;
+    top: 150px;
+  }
+  .discount-card-1 button,
   .discount-card-2 button,
   .discount-card-3 button {
-    padding: 10px 20px;
-    border: 0;
-    border-radius: 8px;
-    background: #ff5400;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 800;
-  } */
+    margin-bottom: 20px;
+  }
   .discount-1,
   .discount-2,
   .discount-3 {

@@ -96,6 +96,13 @@
   }
   /* why choose us section responsive ends hree */
 
+  /* Celebrity section responsive starts here */
+  .celebraty-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* Celebrity section responsive ends here */
+
   /* Deals and discounts section responsive  starts here */
   .discount-card-1,
   .discount-card-2,

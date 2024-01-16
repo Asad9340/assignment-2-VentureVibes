@@ -228,8 +228,8 @@ input[type='time'],
   gap: 24px;
 }
 .item {
-  width: 560px;
-  height: 284px;
+  max-width: 560px;
+  max-height: 284px;
   padding: 32px;
 }
 .item h4 {
@@ -445,6 +445,7 @@ hr {
 .offer-container {
   position: relative;
 }
+
 .offer {
   width: 324px;
   height: 120px;

@@ -124,3 +124,26 @@
   }
   /* NewsLetter section responsive  ends here */
 }
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  header,
+  section {
+    max-width: 930px;
+    margin: 0 auto;
+  }
+  section {
+    margin-bottom: 35px;
+  }
+  .popular-tours-container {
+    flex-direction: column;
+  }
+  .popular-tours-container img{
+    width: 100%;
+  }
+  .newsletter-container{
+    flex-direction: column;
+  }
+  .offer-container img{
+    width: 100%;
+  }
+}

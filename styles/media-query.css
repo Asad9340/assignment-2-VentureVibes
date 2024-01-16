@@ -1,0 +1,119 @@
+@media screen and (max-width: 600px) {
+  header,
+  section {
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  section {
+    margin-bottom: 24px;
+  }
+  .paragraph {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* Header section responsive  starts here */
+  .nav-options {
+    display: none;
+  }
+  .nav-menu {
+    display: inline;
+  }
+  .fa-solid {
+    font-size: 25px;
+  }
+  .nav-title-container h3,
+  .color {
+    font-size: 21px;
+  }
+  .nav-title-container .color {
+    font-size: 21px;
+  }
+  .nav-title-container > img {
+    width: 28.724px;
+    height: 33.516px;
+  }
+  /* Header section responsive  ends here */
+
+  /* Banner section responsive  starts here */
+  .banner-container {
+    height: 483px;
+  }
+  .banner-title {
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .banner-description {
+    max-width: 384px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 32px;
+  }
+  .banner-input-section {
+    flex-direction: column;
+  }
+  .banner-input-section select,
+  input[type='time'],
+  .banner-button {
+    width: 255px;
+    height: 52px;
+  }
+  /* Banner section responsive  ends here */
+
+  /* Popular tours section responsive starts hree */
+  .popular-tours-container {
+    flex-direction: column;
+  }
+  .popular-tours-container img {
+    width: 100%;
+  }
+  .popular-tour-title {
+    font-size: 20px;
+  }
+  /* Popular tours section responsive ends hree */
+
+  /* Destination section responsive ends hree */
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-container img {
+    width: 100%;
+    height: 300px;
+  }
+  /* Destination section responsive ends hree */
+
+  /* why choose us section responsive starts hree */
+  .choose-us-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .item h4 {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 16px 0;
+    margin-top: 0;
+  }
+  /* why choose us section responsive ends hree */
+
+  /* Deals and discounts section responsive  starts here */
+  .discount-card-1,
+  .discount-card-2,
+  .discount-card-3 {
+    width: 450px;
+    height: 365px;
+  }
+  /* Deals and discounts section responsive  ends here */
+
+  /* NewsLetter section responsive  starts here */
+  .newsletter-container {
+    flex-direction: column;
+  }
+  .newsletter-container img {
+    width: 100%;
+  }
+  .newsletter-content {
+    text-align: center;
+  }
+  /* NewsLetter section responsive  ends here */
+}

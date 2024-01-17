@@ -170,13 +170,42 @@
     width: 80%;
     transform: translate(-50%, -50%);
   }
-  .card-icon{
+  .card-icon {
     margin-bottom: 16px;
+  }
+  .discount-card-1 h3,
+  .discount-card-2 h3,
+  .discount-card-3 h3 {
+    font-size: 20px;
+  }
+  .discount-card-1 h4,
+  .discount-card-2 h4,
+  .discount-card-3 h4 {
+    color: #ff5400;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+  }
+  .discount-card-1 button,
+  .discount-card-2 button,
+  .discount-card-3 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
   }
   /* Deals and discounts section responsive  ends here */
 
+  /* Perfect place responsive section starts here */
+  .perfect-place-img-title h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /* Perfect place responsive section ends here */
+
   /* NewsLetter section responsive  starts here */
   .newsletter-container {
+    margin: 20px;
+    display: flex;
     flex-direction: column;
   }
   .newsletter-container img {
@@ -188,9 +217,33 @@
   .newsletter-input input[type='text'],
   input[type='email'],
   input[type='button'] {
-    width: 400px;
     padding-left: 20px;
-    height: 52px;
+    height: 50px;
+  }
+  .offer-container {
+    position: relative;
+  }
+  .offer {
+    width: 220px;
+    height: 80px;
+    border-radius: 10px;
+    background: #ff5400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 36px;
+    right: 5px;
+  }
+  .offer h5 {
+    color: #fff;
+    font-size: 15px;
+  }
+  .offer h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
   }
   /* NewsLetter section responsive  ends here */
 }

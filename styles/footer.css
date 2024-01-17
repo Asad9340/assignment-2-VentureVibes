@@ -21,6 +21,10 @@ footer {
   font-size: 32px;
   font-weight: 800;
 }
+.footer-para {
+  max-width: 700px;
+  margin: 0 auto;
+}
 .footer-icon {
   padding-top: 33px;
   padding-bottom: 50px;
@@ -40,11 +44,26 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .footer-title {
-    padding-top: 50px;
+  .footer-container {
+    margin: 20px;
   }
   .line {
-    margin: 0 100px;
+    margin: 0 80px;
+  }
+  .footer-title {
+    padding-top: 40px;
+    padding-bottom: 16px;
+    gap: 10px;
+  }
+  .footer-title img{
+    width: 30px;
+    height: 30px;
+  }
+  .footer-title h3 {
+    font-size: 20px;
+  }
+  .footer-title .color {
+    font-size: 20px;
   }
   .footer-paragraph {
     color: #131318;

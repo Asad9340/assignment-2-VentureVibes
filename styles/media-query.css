@@ -293,3 +293,19 @@
     height: 52px;
   }
 }
+@media screen and (min-width: 992px) {
+  .newsletter-container img {
+    width: 117%;
+    height: 100%;
+  }
+  .offer {
+    bottom: 51px;
+    right: -75px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .offer {
+    bottom: 50px;
+    right: -90px;
+  }
+}

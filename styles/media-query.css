@@ -7,7 +7,7 @@
   section {
     margin-bottom: 24px;
   }
-  .title{
+  .title {
     font-size: 25px;
   }
   .paragraph {
@@ -16,7 +16,7 @@
   }
 
   /* Header section responsive  starts here */
-  .nav-container{
+  .nav-container {
     margin: 20px;
   }
   .nav-options {
@@ -83,10 +83,10 @@
   /* Popular tours section responsive ends hree */
 
   /* Destination section responsive ends hree */
-  .destination-container{
+  .destination-container {
     margin: 20px;
   }
-  .destination-content{
+  .destination-content {
     margin-bottom: 16px;
   }
   .grid-container {
@@ -99,13 +99,13 @@
     height: 200px;
   }
   .grid-container h3 {
-  font-size: 24px;
-  font-weight: 700;
-}
+    font-size: 24px;
+    font-weight: 700;
+  }
   /* Destination section responsive ends hree */
 
   /* why choose us section responsive starts hree */
-  .choose-us-section{
+  .choose-us-section {
     margin: 20px;
   }
   .choose-us-container {
@@ -125,9 +125,9 @@
     margin-top: 0;
   }
   .choose-us-container img {
-  width: 50px;
-  height: 50px;
-}
+    width: 50px;
+    height: 50px;
+  }
   /* why choose us section responsive ends hree */
 
   /* Celebrity section responsive starts here */
@@ -137,37 +137,41 @@
     flex-direction: column-reverse;
     gap: 20px;
   }
-  .celebraty-img{
+  .celebraty-img {
     gap: 16px;
   }
 
   /* Celebrity section responsive ends here */
 
   /* Deals and discounts section responsive  starts here */
- .discount-content{
-  margin: 20px;
- }
- .discount-container{
-  margin: 20px;
- }
+  .discount-content {
+    margin: 20px;
+  }
+  .discount-container {
+    margin: 20px;
+  }
   .discount-card-1,
+  .discount-card-2,
   .discount-card-3 {
-    left: 20px;
-    top: 150px;
-  }
-  .discount-card-2 {
-    right: 20px;
-    top: 150px;
-  }
-  .discount-card-1 button,
-  .discount-card-2 button,
-  .discount-card-3 button {
-    margin-bottom: 20px;
+    padding: 20px;
   }
   .discount-1,
   .discount-2,
   .discount-3 {
     background-size: cover;
+    background-position-x: 50%;
+    border-radius: 16px;
+  }
+  .discount-card-1,
+  .discount-card-3,
+  .discount-card-2 {
+    top: 60%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+  }
+  .card-icon{
+    margin-bottom: 16px;
   }
   /* Deals and discounts section responsive  ends here */
 

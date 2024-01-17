@@ -298,7 +298,7 @@ input[type='datetime-local'],
 /* Deals and Discounts Section starts here */
 .discount-content {
   text-align: center;
-  margin-top: 48px;
+  margin-bottom: 48px;
 }
 .discount-1 {
   height: 500px;
@@ -331,39 +331,29 @@ input[type='datetime-local'],
 .discount-card-1,
 .discount-card-2,
 .discount-card-3 {
-  max-width: 579px;
-  max-height: 389px;
-  padding-top: 40px;
+  max-width: 600px;
+  max-height: 400px;
+  padding: 50px;
   border-radius: 16px;
   border: 2px solid #fff;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2.5px);
-  text-align: center;
 }
-.discount-card-1 {
+.discount-card-1,
+.discount-card-3 {
   position: absolute;
   top: 56px;
   right: 56px;
-  text-align: left;
-  padding-left: 30px;
 }
 .discount-card-2 {
   position: absolute;
   top: 56px;
   left: 56px;
-  text-align: left;
-  padding-left: 30px;
-}
-.discount-card-3 {
-  position: absolute;
-  top: 56px;
-  right: 56px;
-  text-align: left;
-  padding-left: 30px;
 }
 .card-icon {
   font-size: 16px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: start;
   gap: 10px;
   margin-bottom: 26px;
@@ -394,7 +384,6 @@ input[type='datetime-local'],
   color: #fff;
   font-size: 20px;
   font-weight: 800;
-  margin-bottom: 50px;
 }
 /* Deals and Discounts Section ends here */
 

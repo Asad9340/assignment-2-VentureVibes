@@ -98,7 +98,7 @@ section {
 }
 .banner-description {
   color: #fff;
-  width: 676px;
+  max-width: 676px;
   text-align: center;
   margin-bottom: 48px;
   font-size: 16px;
@@ -298,8 +298,6 @@ input[type='datetime-local'],
 /* Deals and Discounts Section starts here */
 .discount-content {
   text-align: center;
-}
-.discount-container {
   margin-top: 48px;
 }
 .discount-1 {

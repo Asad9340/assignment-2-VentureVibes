@@ -266,6 +266,14 @@
   .newsletter-container {
     flex-direction: column;
   }
+   .newsletter-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .offer{
+    bottom: 51px;
+    right: 10px;
+  }
   .offer-container img {
     width: 100%;
   }
